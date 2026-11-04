@@ -23,15 +23,41 @@
 // Array, Objects, Functions
 
 
-const heros = ["shaktiman", "naagraj", "doga"]
+// const heros = ["shaktiman", "naagraj", "doga"]
 
-const user = {
-    name: "Ved Prakash",
-    age: 36
-};
+// const user = {
+//     name: "Ved Prakash",
+//     age: 36
+// };
 
-const myFunction = function sayHello(){
-    console.log("Hello World");
+// const myFunction = function sayHello(){
+//     console.log("Hello World");
+// }
+
+// myFunction();
+
+//====================================================================
+
+let myName = "Ved Prakash";
+let anotherName = myName;
+
+anotherName = "Prakhar";
+
+console.log(myName);
+
+console.log(anotherName);
+
+let farmer = {
+    name: "Ramanand",
+    age: 68,
+    email: "rama@gmail.com"
 }
 
-myFunction();
+let anotherFarmer = farmer;
+
+anotherFarmer.email = "ramanand@gmail.com";
+
+console.log(farmer);
+console.log(anotherFarmer);
+
+
