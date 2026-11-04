@@ -85,10 +85,42 @@ const str3 = "Cats are the best!";
 
 // console.log(str3.endsWith("best",17));
 
-const paragraph = "I think Ruth's dog is cuter than your dog!";
+// const paragraph = "I think Ruth's dog is cuter than your dog!";
 
-const searchTerm = "dog";
-const indexOfFirst = paragraph.indexOf(searchTerm);
-console.log(`The index of the first "${searchTerm}" is ${indexOfFirst}`);
+// const searchTerm = "dog";
+// const indexOfFirst = paragraph.indexOf(searchTerm);
+// console.log(`The index of the first "${searchTerm}" is ${indexOfFirst}`);
 
-console.log(`The index of the second "${searchTerm}" is ${paragraph.indexOf(searchTerm, indexOfFirst+1,)},`);
+// console.log(`The index of the second "${searchTerm}" is ${paragraph.indexOf(searchTerm, indexOfFirst+1,)},`);
+
+// const dotted = "Istanbul";
+// console.log(`EN-US: ${dotted.toLocaleLowerCase("en-US")}`);
+
+// let string = "anything something     ";
+// console.log(string.length);
+// const trimedString = string.trimEnd();
+
+// console.log(trimedString.length);
+
+
+// let name = "  Pooja  ";
+// console.log(name.length);
+// let trimedName = name.trim();
+// console.log(trimedName.length);
+
+// let person = "   Rajesh";
+// console.log(person.length);
+// const trimedPerson = person.trimStart();
+// console.log(trimedPerson.length);
+
+
+const testString = "Breaded Mushrooms";
+console.log(testString.padEnd(22,"!"));
+
+
+const newString = "Red Horse";
+console.log(newString.padStart(15,"->"));
+
+
+const ramString = "Ram -> ";
+console.log(ramString.repeat(5));
